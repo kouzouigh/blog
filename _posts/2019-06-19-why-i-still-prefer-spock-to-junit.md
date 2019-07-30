@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why i prefer Spock to Junit
+title: Why I prefer Spock to Junit
 date: 2019-06-12 00:00 +0200
 category: personal
 tags: fun
