@@ -1,11 +1,11 @@
 # Site settings
 title: Kamel Ouzouigh Blog
 description: "A minimal blog template, build with Jekyll."
-url: "http://www.kryptcode.com/blog"
+url: "https://kouzouigh.github.io"
 author:
   name: "Kamel Ouzouigh"
   email: "ouzouighkamel@gmail.com"
-  url: "http://www.kryptcode.com"
+  url: "https://kouzouigh.github.io"
 
 # Build settings
 baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
@@ -38,3 +38,4 @@ google_analytics: UA-17222824-2
 
 plugins: 
   - jekyll-sitemap
+  - jekyll-seo-tag
