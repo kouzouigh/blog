@@ -4,6 +4,7 @@ title: What's new in Groovy 3
 date: 2019-08-16 00:00 +0200
 category: programming
 tags: Tech
+url: https://kouzouigh.github.io/blog/whats-new-in-groovy-3
 ---
 
 ![Logo of Groovy](https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg)

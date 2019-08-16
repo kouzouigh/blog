@@ -1,11 +1,15 @@
 # Site settings
 title: Kamel Ouzouigh Blog
-description: "A minimal blog template, build with Jekyll."
-url: "https://kouzouigh.github.io"
+description: "Kamel Ouzouigh Programming Blog"
+url: "https://kouzouigh.github.io/blog"
+logo: "https://kouzouigh.github.io/blog/img/coffee.svg"
 author:
   name: "Kamel Ouzouigh"
   email: "ouzouighkamel@gmail.com"
   url: "https://kouzouigh.github.io"
+
+twitter: 
+  username: onyme001
 
 # Build settings
 baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
@@ -35,6 +39,11 @@ reverse: false
 
 # Google Analytics
 google_analytics: UA-17222824-2
+
+webmaster_verifications:
+  google: 987654321
+  bing: 987654321
+  alexa: 987654321
 
 plugins: 
   - jekyll-sitemap
