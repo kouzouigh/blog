@@ -163,10 +163,12 @@ assert logs == ['Executing Resource', 'Closing Resource']
 {% endhighlight %}
 
 **default method interface**
-
-In Groovy this feature is already implemented with ***traits***
-
-Now in Groovy 3, all this stuffs are supported 🎉✌️.
-
-### New method to String
-takeRight, takeAfter, dropRight
+{% highlight groovy %}
+// Note: In Groovy this feature is already implemented with traits
+interface Cache {
+    
+    default void evict() {
+        println "Evict cache"
+    }
+}
+{% endhighlight %}
