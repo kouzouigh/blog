@@ -11,7 +11,7 @@ url: https://kouzouigh.github.io/blog/whats-new-in-groovy-3
 In this article, we’ll have a quick look at some of the most interesting new features in Groovy 3.
 
 ### Identity Operator
-In Groovy 2 to express _equal-identity_ we use the _is()_ expression and  _==_ and _!=_ to express just equality(through _equals()_ method). This created some confusion, hence in Groovy 3 introduce the operators _===_ and _!==_ for expressing respectively **identity equal** and **non identity equal**.
+In Groovy 2 to express _equal-identity_ we use the _is()_ expression and  _==_ and _!=_ to express just equality(through _equals()_ method). This created some confusion, hence in Groovy 3 introduce the operators _===_ and _!==_ like in Javascript for expressing respectively **identity equal** and **non identity equal**.
 
 **Example**
 {% highlight groovy %}
@@ -26,13 +26,10 @@ def effectiveJava = new Book(isbn: '0134685997')
 def refToEffectiveJava = effectiveJava
 def copyOfEffectiveJava = new Book(isbn: '0134685997') 
 
-refToEffectiveJava === effectiveJava // return true
-refToEffectiveJava.is(effectiveJava) // return true
-copyOfEffectiveJava == effectiveJava // return true
-copyOfEffectiveJava === effectiveJava // return false
-
-copyOfEffectiveJava !== effectiveJava // return true
-refToEffectiveJava !== effectiveJava  // return false
+assert refToEffectiveJava === effectiveJava
+assert refToEffectiveJava.is(effectiveJava)
+assert copyOfEffectiveJava == effectiveJava
+assert copyOfEffectiveJava !== effectiveJava
 {% endhighlight %}
 
 ### Elvis assignment
